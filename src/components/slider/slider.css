@@ -1,0 +1,91 @@
+.carousel {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+    overflow: hidden;
+  }
+  
+  .carouselItem {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .carouselItem.active {
+    opacity: 1;
+  }
+  
+  .carouselItemContent {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    color: #fff;
+    text-align: center;
+    width: 30vw;
+    height: 30vh;
+  }
+  
+  .carouselItemContent h2 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  
+  .carouselItemContent p {
+    margin: 10px;
+    font-size: 12px;
+  }
+  
+  .carouselNavigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .carouselNavigation button {
+    border: none;
+    width: 130px;
+    background-color: #C467FF;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .carouselNavigation button:hover {
+    background-color: #ffffff;
+    color: #C467FF;
+  }
+  
+  .radioButtons {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .radioButton {
+    height: 5px;
+    width: 7vw;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 0 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .radioButton.active {
+    background-color: #C467FF;
+  }
+
+
+  

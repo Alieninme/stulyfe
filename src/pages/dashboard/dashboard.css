@@ -1,0 +1,212 @@
+.dashContainer{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.sideBar{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F7FAFC;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.adminInfo{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.adminInfo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.adminInfo h1{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.adminInfo p{
+    font-size: 10px;
+    margin-left: 10px;
+    color: #9C9C9C;
+}
+
+.topContainer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topContainer span{
+    margin-right: 15px;
+}
+
+.bottomContainer span{
+    margin-right: 15px;
+}
+
+.bottomContainer{
+   height: 12vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #9C9C9C;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* section */
+section{
+    width: 85%;
+}
+
+.studentSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.studentSearch h1{
+    font-size: 15px;
+}
+
+.studentSearch div{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.studentSearch button{
+    border: none;
+    padding: 0 10px;
+    background-color: #C467FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.studentSearch input{
+    background-color: #F7FAFC;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.studentSelection{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.studentSelection thead{
+    display: flex; 
+}
+
+
+.studentSelection thead th{
+    height: 40px;
+    border: 1px solid rgb(240, 240, 240);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7FAFC;
+    color: #8492A6; 
+    font-size: 12px;
+}
+
+.studentSelection tbody{
+    display: flex;
+}
+
+.studentSelection tbody td{
+    height: 40px;
+    border: 1px solid rgb(240, 240, 240);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffffff; 
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.studentContainer{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.studentWrapper{
+    display: flex;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.studentBox img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.studentBox h1{
+    font-size: 12px;
+}
+
+.studentBox p{
+    font-size: 8px;
+}
+
+.studentBox{
+    width : 32.5%;
+    height: 65px;
+    background-color: #F7FAFC;
+    margin: 4px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.navSelected{
+    color: #C467FF;
+}
+
+.navSelected a{
+    color: #C467FF ;
+}
+
+.navLogout a{
+    color: #EF1F44;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
